@@ -71,6 +71,7 @@ Respuesta exitosa:
     }
 }
 ```
+![Prueba en Postman](postman_estudiante.png)
 
 
 
