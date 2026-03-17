@@ -73,6 +73,46 @@ Respuesta exitosa:
 ```
 ![Prueba en Postman](postman_estudiante.png)
 
+----
+
+2. Consultar todos los estudiantes (GET)
+
+URL: /estudiantes
+
+Método: GET
+
+Respuesta:
+
+```bash id="x1v9hj"
+[
+    {
+        "id": 1,
+        "nombre": "Ana Pérez",
+        "carrera": "Ingeniería",
+        "semestre": 3
+    }
+]
+```
+
+![Prueba en Postman](postman_estudiante2.png)
+
+----
+
+## Evidencia de pruebas
+
+-Se pueden usar herramientas como Postman o curl para probar los endpoints.
+
+-Se recomienda guardar las capturas en la carpeta evidencias/ dentro del repositorio.
+
+-Cada captura debe mostrar claramente la URL, método, body (si aplica) y la respuesta.
+
+---
+
+## Autor
+
+Nombre: Luis Owen Jaramillo Guerrero
+
+Práctica de API REST con Flask
 
 
 
