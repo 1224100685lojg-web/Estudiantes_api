@@ -39,5 +39,46 @@ python app.py
 ```
 La API quedará disponible en: http://127.0.0.1:5000/
 
+---
+
+## Endpoints
+
+1. Agregar un estudiante (POST)
+
+URL: /estudiantes
+
+Método: POST
+
+Body (JSON):
+
+```bash id="x1v9hj"
+{
+    "nombre": "Ana Pérez",
+    "carrera": "Ingeniería",
+    "semestre": 3
+}
+```
+
+Respuesta exitosa:
+```bash id="x1v9hj"
+{
+    "mensaje": "Estudiante registrado",
+    "estudiante": {
+        "id": 1,
+        "nombre": "Ana Pérez",
+        "carrera": "Ingeniería",
+        "semestre": 3
+    }
+}
+```
+
+
+
+
+
+
+
+
+
 
 
